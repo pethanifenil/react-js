@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  outline: none;
+  border: none;
+}
+
+body {
+  background-color: red;
+  color: white;
+}
+
+button {
+  width: fit-content;
+  padding: 8px;
+  background-color: #ed5a50;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eb4e43;
+}

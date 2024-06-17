@@ -1,0 +1,39 @@
+.aboutMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: red;
+}
+
+.box {
+  min-height: 40vh;
+  background-color: red;
+  width: 40vw;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .descContainer {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .box {
+    margin: 0px;
+    width: 55%;
+  }
+  .aboutMainContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .box {
+    height: 90%;
+  }
+}

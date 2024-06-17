@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&family=Protest+Riot&display=swap");
+
+.ulItems {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: large;
+}
+
+.ulItems li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Kode Mono", monospace;
+}
+
+.subServicesNavbar {
+  background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .ulItems {
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

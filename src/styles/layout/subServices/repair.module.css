@@ -1,0 +1,79 @@
+.paintMainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  gap: 32px;
+  background-color: red;
+}
+.descContainer {
+  text-align: center;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imgContainer {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+}
+
+@media screen and (max-width: 800px) {
+  .paintMainContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.automechanica {
+  background-color: red;
+  color: white;
+  padding: 32px;
+}
+
+.imgWithDescContainer {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+}
+
+.imgWithDescContainerFirst {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 15%;
+}
+
+.imgWithDescContainerSecond {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 800px) {
+  .imgWithDescContainer {
+    flex-wrap: wrap;
+  }
+}
+
+.howWork {
+  justify-content: space-evenly;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  display: grid;
+  margin: 32px;
+  padding: 32px;
+}
+
+.title {
+  color: white;
+}

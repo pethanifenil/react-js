@@ -1,0 +1,26 @@
+.imgContainer img {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+  position: relative;
+}
+
+.contentContainer {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer {
+    color: black;
+  }
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  font-size: xx-large;
+}

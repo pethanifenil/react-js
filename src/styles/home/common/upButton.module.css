@@ -1,0 +1,29 @@
+.upButton {
+  position: fixed;
+  margin-left: 94%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .upButton {
+    margin-left: 89%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .upButton {
+    margin-left: 85%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .upButton {
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .upButton {
+    margin-left: 73%;
+  }
+}

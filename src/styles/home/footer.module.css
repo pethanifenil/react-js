@@ -1,0 +1,19 @@
+.footerContainer {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 32px;
+  font-size: x-large;
+}
+
+i {
+  cursor: pointer;
+}
